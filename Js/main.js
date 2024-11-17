@@ -1,15 +1,20 @@
 let containerText = document.querySelector('.container-text');
 let containerDetails = document.querySelector('.container-details');
+let numberCode = document.querySelector('.number');
 
-let key = document.querySelector('#key');
-let location = document.querySelector('#location');
-let which = document.querySelector('#which');
-let code = document.querySelector('#code');
+let keyElem = document.querySelector('#key');
+let locationElem = document.querySelector('#location');
+let whichElem = document.querySelector('#which');
+let codeElem = document.querySelector('#code');
 
 document.body.addEventListener('keydown', function(event){
 
     containerText.style.display = 'none';
     containerDetails.style.display = 'flex';
 
-    console.log(event);
+    numberCode.innerHTML = event.keyCode;
+    keyElem.innerHTML = event.key;
+    locationElem.innerHTML = event.location;
+    whichElem.innerHTML = event.which;
+    codeElem.innerHTML = event.code;
 })
