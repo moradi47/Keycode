@@ -61,6 +61,7 @@ body{
     align-items: center;
     border-radius: 3px;
     font-family:sans-serif;
+    box-shadow: 2px 2px  10px 2px #D0D0D0;
 }
 
 .header-box{
