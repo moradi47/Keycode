@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 
-.text{
+.container-text{
     display:none;
     background-color: #FFFFFF;
     color:#1E0000;
