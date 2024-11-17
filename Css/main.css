@@ -15,3 +15,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.text{
+    display:none;
+    background-color: #FFFFFF;
+    color:#1E0000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px  10px 2px #D0D0D0;
+}
