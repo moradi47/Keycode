@@ -9,6 +9,8 @@ let codeElem = document.querySelector('#code');
 
 document.body.addEventListener('keydown', function(event){
 
+    event.preventDefault();
+
     containerText.style.display = 'none';
     containerDetails.style.display = 'flex';
 
